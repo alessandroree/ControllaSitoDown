@@ -98,6 +98,6 @@ app.post("/aggiunta-sito", (req, res) => {
     res.redirect("/");
 });
 
-app.listen(3000, () => {
+app.listen(8080, () => {
     console.log("🚀 Server avviato su http://localhost:3000");
 });
